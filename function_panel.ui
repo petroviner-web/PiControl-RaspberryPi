@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FunctionPanelRoot</class>
+ <widget class="QWidget" name="FunctionPanelRoot">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>1260</width><height>760</height></rect></property>
+  <layout class="QHBoxLayout" name="outerLayout">
+   <property name="leftMargin"><number>18</number></property><property name="topMargin"><number>18</number></property><property name="rightMargin"><number>18</number></property><property name="bottomMargin"><number>18</number></property>
+   <item>
+    <widget class="QFrame" name="boardFrame">
+     <property name="minimumSize"><size><width>500</width><height>0</height></size></property>
+     <property name="sizePolicy"><sizepolicy hsizetype="Preferred" vsizetype="Preferred"><horstretch>3</horstretch><verstretch>0</verstretch></sizepolicy></property>
+     <property name="styleSheet"><string notr="true">QFrame#boardFrame {background:#164b3b; border:6px solid #c5c8ca; border-radius:22px;}</string></property>
+     <layout class="QVBoxLayout" name="boardLayout">
+      <property name="leftMargin"><number>48</number></property><property name="topMargin"><number>24</number></property><property name="rightMargin"><number>48</number></property><property name="bottomMargin"><number>24</number></property>
+      <item><widget class="QLabel" name="boardTitleLabel"><property name="text"><string>RASPBERRY PI  MODEL B+</string></property><property name="alignment"><set>Qt::AlignCenter</set></property><property name="styleSheet"><string notr="true">color:white; font-size:20px; font-weight:800; border:none;</string></property></widget></item>
+      <item>
+       <widget class="QWidget" name="pinGridWidget">
+        <layout class="QGridLayout" name="pinGrid">
+         <property name="horizontalSpacing"><number>8</number></property><property name="verticalSpacing"><number>4</number></property>
+         <item row="0" column="0"><widget class="QPushButton" name="pinButton_1">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>1</string></property></widget></item><item row="0" column="1"><widget class="QLabel" name="pinLabel_1">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>3.3V</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="0" column="2"><widget class="QPushButton" name="pinButton_2">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>2</string></property></widget></item><item row="0" column="3"><widget class="QLabel" name="pinLabel_2">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>5V</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="1" column="0"><widget class="QPushButton" name="pinButton_3">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>3</string></property></widget></item><item row="1" column="1"><widget class="QLabel" name="pinLabel_3">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO2 / SDA1</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="1" column="2"><widget class="QPushButton" name="pinButton_4">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>4</string></property></widget></item><item row="1" column="3"><widget class="QLabel" name="pinLabel_4">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>5V</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="2" column="0"><widget class="QPushButton" name="pinButton_5">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>5</string></property></widget></item><item row="2" column="1"><widget class="QLabel" name="pinLabel_5">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO3 / SCL1</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="2" column="2"><widget class="QPushButton" name="pinButton_6">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>6</string></property></widget></item><item row="2" column="3"><widget class="QLabel" name="pinLabel_6">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GND</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="3" column="0"><widget class="QPushButton" name="pinButton_7">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>7</string></property></widget></item><item row="3" column="1"><widget class="QLabel" name="pinLabel_7">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO4</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="3" column="2"><widget class="QPushButton" name="pinButton_8">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>8</string></property></widget></item><item row="3" column="3"><widget class="QLabel" name="pinLabel_8">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO14 / TXD</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="4" column="0"><widget class="QPushButton" name="pinButton_9">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>9</string></property></widget></item><item row="4" column="1"><widget class="QLabel" name="pinLabel_9">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GND</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="4" column="2"><widget class="QPushButton" name="pinButton_10">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>10</string></property></widget></item><item row="4" column="3"><widget class="QLabel" name="pinLabel_10">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO15 / RXD</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="5" column="0"><widget class="QPushButton" name="pinButton_11">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>11</string></property></widget></item><item row="5" column="1"><widget class="QLabel" name="pinLabel_11">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO17</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="5" column="2"><widget class="QPushButton" name="pinButton_12">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>12</string></property></widget></item><item row="5" column="3"><widget class="QLabel" name="pinLabel_12">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO18 / PWM0</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="6" column="0"><widget class="QPushButton" name="pinButton_13">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>13</string></property></widget></item><item row="6" column="1"><widget class="QLabel" name="pinLabel_13">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO27</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="6" column="2"><widget class="QPushButton" name="pinButton_14">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>14</string></property></widget></item><item row="6" column="3"><widget class="QLabel" name="pinLabel_14">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GND</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="7" column="0"><widget class="QPushButton" name="pinButton_15">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>15</string></property></widget></item><item row="7" column="1"><widget class="QLabel" name="pinLabel_15">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO22</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="7" column="2"><widget class="QPushButton" name="pinButton_16">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>16</string></property></widget></item><item row="7" column="3"><widget class="QLabel" name="pinLabel_16">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO23</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="8" column="0"><widget class="QPushButton" name="pinButton_17">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>17</string></property></widget></item><item row="8" column="1"><widget class="QLabel" name="pinLabel_17">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>3.3V</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="8" column="2"><widget class="QPushButton" name="pinButton_18">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>18</string></property></widget></item><item row="8" column="3"><widget class="QLabel" name="pinLabel_18">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO24</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="9" column="0"><widget class="QPushButton" name="pinButton_19">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>19</string></property></widget></item><item row="9" column="1"><widget class="QLabel" name="pinLabel_19">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO10 / MOSI</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="9" column="2"><widget class="QPushButton" name="pinButton_20">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>20</string></property></widget></item><item row="9" column="3"><widget class="QLabel" name="pinLabel_20">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GND</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="10" column="0"><widget class="QPushButton" name="pinButton_21">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>21</string></property></widget></item><item row="10" column="1"><widget class="QLabel" name="pinLabel_21">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO9 / MISO</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="10" column="2"><widget class="QPushButton" name="pinButton_22">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>22</string></property></widget></item><item row="10" column="3"><widget class="QLabel" name="pinLabel_22">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO25</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="11" column="0"><widget class="QPushButton" name="pinButton_23">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>23</string></property></widget></item><item row="11" column="1"><widget class="QLabel" name="pinLabel_23">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO11 / SCLK</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="11" column="2"><widget class="QPushButton" name="pinButton_24">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>24</string></property></widget></item><item row="11" column="3"><widget class="QLabel" name="pinLabel_24">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO8 / CE0</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="12" column="0"><widget class="QPushButton" name="pinButton_25">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>25</string></property></widget></item><item row="12" column="1"><widget class="QLabel" name="pinLabel_25">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GND</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="12" column="2"><widget class="QPushButton" name="pinButton_26">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>26</string></property></widget></item><item row="12" column="3"><widget class="QLabel" name="pinLabel_26">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO7 / CE1</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="13" column="0"><widget class="QPushButton" name="pinButton_27">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>27</string></property></widget></item><item row="13" column="1"><widget class="QLabel" name="pinLabel_27">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO0 / ID_SD</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="13" column="2"><widget class="QPushButton" name="pinButton_28">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>28</string></property></widget></item><item row="13" column="3"><widget class="QLabel" name="pinLabel_28">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO1 / ID_SC</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="14" column="0"><widget class="QPushButton" name="pinButton_29">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>29</string></property></widget></item><item row="14" column="1"><widget class="QLabel" name="pinLabel_29">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO5</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="14" column="2"><widget class="QPushButton" name="pinButton_30">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>30</string></property></widget></item><item row="14" column="3"><widget class="QLabel" name="pinLabel_30">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GND</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="15" column="0"><widget class="QPushButton" name="pinButton_31">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>31</string></property></widget></item><item row="15" column="1"><widget class="QLabel" name="pinLabel_31">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO6</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="15" column="2"><widget class="QPushButton" name="pinButton_32">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>32</string></property></widget></item><item row="15" column="3"><widget class="QLabel" name="pinLabel_32">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO12 / PWM0</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="16" column="0"><widget class="QPushButton" name="pinButton_33">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>33</string></property></widget></item><item row="16" column="1"><widget class="QLabel" name="pinLabel_33">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO13 / PWM1</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="16" column="2"><widget class="QPushButton" name="pinButton_34">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>34</string></property></widget></item><item row="16" column="3"><widget class="QLabel" name="pinLabel_34">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GND</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="17" column="0"><widget class="QPushButton" name="pinButton_35">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>35</string></property></widget></item><item row="17" column="1"><widget class="QLabel" name="pinLabel_35">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO19 / PWM1</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="17" column="2"><widget class="QPushButton" name="pinButton_36">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>36</string></property></widget></item><item row="17" column="3"><widget class="QLabel" name="pinLabel_36">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO16</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="18" column="0"><widget class="QPushButton" name="pinButton_37">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>37</string></property></widget></item><item row="18" column="1"><widget class="QLabel" name="pinLabel_37">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO26</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="18" column="2"><widget class="QPushButton" name="pinButton_38">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>38</string></property></widget></item><item row="18" column="3"><widget class="QLabel" name="pinLabel_38">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO20</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="19" column="0"><widget class="QPushButton" name="pinButton_39">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>39</string></property></widget></item><item row="19" column="1"><widget class="QLabel" name="pinLabel_39">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GND</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item><item row="19" column="2"><widget class="QPushButton" name="pinButton_40">
+          <property name="minimumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="maximumSize"><size><width>46</width><height>34</height></size></property>
+          <property name="text"><string>40</string></property></widget></item><item row="19" column="3"><widget class="QLabel" name="pinLabel_40">
+          <property name="minimumSize"><size><width>135</width><height>0</height></size></property>
+          <property name="text"><string>GPIO21</string></property>
+          <property name="styleSheet"><string notr="true">color:#ecf5f0; border:none; font-size:12px;</string></property></widget></item>
+        </layout>
+       </widget>
+      </item>
+      <item><spacer name="boardSpacer"><property name="orientation"><enum>Qt::Vertical</enum></property><property name="sizeHint" stdset="0"><size><width>20</width><height>20</height></size></property></spacer></item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="sideFrame">
+     <property name="sizePolicy"><sizepolicy hsizetype="Preferred" vsizetype="Preferred"><horstretch>4</horstretch><verstretch>0</verstretch></sizepolicy></property>
+     <property name="styleSheet"><string notr="true">QFrame#sideFrame {background:#202632; border-radius:16px;}</string></property>
+     <layout class="QVBoxLayout" name="sideLayout">
+      <property name="leftMargin"><number>18</number></property><property name="topMargin"><number>18</number></property><property name="rightMargin"><number>18</number></property><property name="bottomMargin"><number>18</number></property>
+      <item><widget class="QLabel" name="panelHeadingLabel"><property name="text"><string>GPIO PINOVI</string></property><property name="styleSheet"><string notr="true">font-size:20px; font-weight:800; color:white;</string></property></widget></item>
+      <item><widget class="QLabel" name="infoLabel"><property name="text"><string>Kliknite na aktivni GPIO pin na ploči.</string></property><property name="wordWrap"><bool>true</bool></property><property name="styleSheet"><string notr="true">color:#b9c4d2; padding:8px 0;</string></property></widget></item>
+      <item><layout class="QHBoxLayout" name="gpioControlRow"><item><widget class="QComboBox" name="directionCombo"><item><property name="text"><string>INPUT</string></property></item><item><property name="text"><string>OUTPUT</string></property></item></widget></item><item><widget class="QPushButton" name="valueButton"><property name="text"><string>Vrednost: 0</string></property></widget></item></layout></item>
+      <item><widget class="QLabel" name="signalCardLabel"><property name="minimumSize"><size><width>0</width><height>48</height></size></property><property name="text"><string>Nema izabranog pina</string></property><property name="alignment"><set>Qt::AlignCenter</set></property></widget></item>
+      <item><layout class="QHBoxLayout" name="simulationButtonsRow"><item><widget class="QPushButton" name="simLowButton"><property name="text"><string>Simuliraj LOW</string></property></widget></item><item><widget class="QPushButton" name="simHighButton"><property name="text"><string>Simuliraj HIGH</string></property></widget></item></layout></item>
+      <item><widget class="QWidget" name="protocolContainer" native="true"><layout class="QVBoxLayout" name="protocolLayout"><property name="leftMargin"><number>0</number></property><property name="topMargin"><number>0</number></property><property name="rightMargin"><number>0</number></property><property name="bottomMargin"><number>0</number></property></layout></widget></item>
+      <item><widget class="QTableWidget" name="pinTable"><property name="minimumSize"><size><width>0</width><height>190</height></size></property><property name="columnCount"><number>5</number></property><column><property name="text"><string>Fizički</string></property></column><column><property name="text"><string>GPIO</string></property></column><column><property name="text"><string>Naziv</string></property></column><column><property name="text"><string>Smer</string></property></column><column><property name="text"><string>Vrednost</string></property></column></widget></item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

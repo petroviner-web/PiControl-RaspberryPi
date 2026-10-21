@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainRoot</class>
+ <widget class="QWidget" name="MainRoot">
+  <property name="geometry"><rect><x>0</x><y>0</y><width>1320</width><height>860</height></rect></property>
+  <property name="windowTitle"><string>Raspberry Pi GPIO kontrolni sistem</string></property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <property name="leftMargin"><number>14</number></property><property name="topMargin"><number>14</number></property><property name="rightMargin"><number>14</number></property><property name="bottomMargin"><number>14</number></property>
+   <item>
+    <layout class="QHBoxLayout" name="titleRow">
+     <item><widget class="QLabel" name="titleLabel"><property name="text"><string>Raspberry Pi GPIO kontrolni sistem</string></property><property name="styleSheet"><string notr="true">font-size:26px; font-weight:900;</string></property></widget></item>
+     <item><spacer name="titleSpacer"><property name="orientation"><enum>Qt::Horizontal</enum></property><property name="sizeHint" stdset="0"><size><width>40</width><height>20</height></size></property></spacer></item>
+     <item><widget class="QLabel" name="legendLabel"><property name="text"><string>INPUT = zeleno   •   OUTPUT = crveno</string></property><property name="styleSheet"><string notr="true">color:#aeb8c5;</string></property></widget></item>
+     <item><spacer name="smallSpacer"><property name="orientation"><enum>Qt::Horizontal</enum></property><property name="sizeType"><enum>QSizePolicy::Fixed</enum></property><property name="sizeHint" stdset="0"><size><width>16</width><height>20</height></size></property></spacer></item>
+     <item><widget class="QLabel" name="modeTextLabel"><property name="text"><string>Režim:</string></property></widget></item>
+     <item><widget class="QComboBox" name="modeCombo"><item><property name="text"><string>SIMULACIJA</string></property></item><item><property name="text"><string>HARDVER</string></property></item></widget></item>
+     <item><widget class="QLabel" name="modeStatusLabel"><property name="text"><string>● FULL DEMO</string></property><property name="styleSheet"><string notr="true">color:#f5c451; font-weight:800;</string></property></widget></item>
+    </layout>
+   </item>
+   <item><widget class="QTabWidget" name="tabs"><property name="currentIndex"><number>0</number></property></widget></item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
