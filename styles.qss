@@ -1,0 +1,13 @@
+QMainWindow, QWidget {background:#141821; color:#edf2f7; font-family:'Segoe UI';}
+QTabWidget::pane {border:1px solid #343d4e; border-radius:10px;}
+QTabBar::tab {background:#242b38; padding:11px 28px; margin-right:3px; border-radius:7px;}
+QTabBar::tab:selected {background:#3977d5; font-weight:800;}
+QComboBox, QPushButton {background:#343d4e; color:white; border:1px solid #59667b; padding:8px; border-radius:6px;}
+QLineEdit, QSpinBox, QDoubleSpinBox {background:#202632; color:white; border:1px solid #59667b; padding:6px; border-radius:5px;}
+QTableWidget {background:#171c25; alternate-background-color:#1e2530; gridline-color:#333c4a;}
+QHeaderView::section {background:#303948; color:white; padding:7px; border:none;}
+QProgressBar {background:#202632; border:1px solid #59667b; border-radius:6px; text-align:center;}
+QProgressBar::chunk {background:#3977d5; border-radius:5px;}
+QGroupBox {border:1px solid #465267; border-radius:8px; margin-top:9px; padding-top:8px;}
+QGroupBox::title {subcontrol-origin: margin; left:10px; padding:0 5px; font-weight:700;}
+QPlainTextEdit {background:#111720; color:#d7e2ef; border:1px solid #465267; border-radius:6px;}

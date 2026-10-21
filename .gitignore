@@ -1,0 +1,19 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# System/editor
+.DS_Store
+desktop.ini
+.vscode/
+.idea/
+# User logs and hardware traces
+*.log
+*.sqlite
+# Avoid checking in original report containing student identifier
+PiControl_Projektna_dokumentacijaEM152022.pdf

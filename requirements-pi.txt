@@ -1,0 +1,4 @@
+# Hardware server only; install the distro-compatible RPi.GPIO package separately.
+smbus2>=0.4.3
+pyserial>=3.5
+spidev>=3.6
